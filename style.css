@@ -357,6 +357,14 @@ article .icon {
     height: 90%;
 }
 
+.project-img:hover:not([src*="construction-man.jpg"]) {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    z-index: 9999;      
+}
+
 .project-tile {
     margin: 1rem;
     color: black;
